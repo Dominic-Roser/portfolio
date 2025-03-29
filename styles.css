@@ -1,4 +1,14 @@
 img {
-  width: 25%; /* Shrinks to 1/4th of original width */
-  height: auto; /* Maintains aspect ratio */
+  width: 25%;
+  height: auto;
+}
+
+.image-container {
+  display: flex;
+  gap: 10px;
+}
+
+.image-container img {
+  width: 15%;
+  height: auto;
 }
