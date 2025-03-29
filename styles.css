@@ -1,0 +1,4 @@
+img {
+  width: 25%; /* Shrinks to 1/4th of original width */
+  height: auto; /* Maintains aspect ratio */
+}
