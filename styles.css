@@ -1,3 +1,15 @@
+.header-container {
+  display: flex;          /* Forces horizontal alignment */
+  align-items: center;    /* Centers items vertically */
+  gap: 20px;              /* Adds space between text and image */
+}
+
+/* Adjust the size of the image */
+.header-container img {
+  width: 150px; /* Adjust as needed */
+  height: auto;
+}
+
 img {
   width: 25%;
   height: auto;
